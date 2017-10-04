@@ -1,0 +1,25 @@
+{
+  "name": "Leonidas",
+  "version": "0.0.1",
+  "description": "A light wallet for desktop, designed to be beautiful and very UI focused. Minimalistic and easy to use.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Leonidas",
+    "NEO",
+    "Wallet",
+    "Concillio",
+    "Leon"
+  ],
+  "author": "Created by Sam Safahi and Concillio",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "neon-js": "git+https://github.com/CityOfZion/neon-js.git"
+  }
+}

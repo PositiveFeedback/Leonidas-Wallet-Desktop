@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'git+https://github.com/CityOfZion/neon-js.gi$',
+1 verbose cli   't' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+https://github.com/CityOfZion/neon-js.gi$
+8 silly fetchPackageMetaData t
+9 silly fetchOtherPackageData git+https://github.com/CityOfZion/neon-js.gi$
+10 silly cache add args [ 'git+https://github.com/CityOfZion/neon-js.gi$', null ]
+11 verbose cache add spec git+https://github.com/CityOfZion/neon-js.gi$
+12 silly fetchNamedPackageData t
+13 silly mapToRegistry name t
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: 't',
+16 silly mapToRegistry   scope: null,
+16 silly mapToRegistry   escapedName: 't',
+16 silly mapToRegistry   name: 't',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag' }
+17 silly mapToRegistry uri https://registry.npmjs.org/t
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: 'git+https://github.com/CityOfZion/neon-js.gi$',
+18 silly cache add   scope: null,
+18 silly cache add   escapedName: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: 'git+https://github.com/CityOfZion/neon-js.gi$',
+18 silly cache add   spec: 'git+https://github.com/CityOfZion/neon-js.gi%24.git',
+18 silly cache add   type: 'hosted',
+18 silly cache add   hosted:
+18 silly cache add    { type: 'github',
+18 silly cache add      ssh: 'git@github.com:CityOfZion/neon-js.gi%24.git',
+18 silly cache add      sshUrl: 'git+ssh://git@github.com/CityOfZion/neon-js.gi%24.git',
+18 silly cache add      httpsUrl: 'git+https://github.com/CityOfZion/neon-js.gi%24.git',
+18 silly cache add      gitUrl: 'git://github.com/CityOfZion/neon-js.gi%24.git',
+18 silly cache add      shortcut: 'github:CityOfZion/neon-js.gi%24',
+18 silly cache add      directUrl: 'https://raw.githubusercontent.com/CityOfZion/neon-js.gi%24/master/package.json' } }
+19 verbose addRemoteGit caching git+https://github.com/CityOfZion/neon-js.gi$
+20 verbose addRemoteGit git+https://github.com/CityOfZion/neon-js.gi%24.git is a repository hosted by github
+21 silly tryClone cloning git+https://github.com/CityOfZion/neon-js.gi%24.git via git+https://github.com/CityOfZion/neon-js.gi%24.git
+22 verbose tryClone git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb not in flight; caching
+23 verbose correctMkdir C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+24 info git [ 'clone',
+24 info git   '--template=C:\\Users\\PercyZachson\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+24 info git   '--mirror',
+24 info git   'https://github.com/CityOfZion/neon-js.gi%24.git',
+24 info git   'C:\\Users\\PercyZachson\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb' ]
+25 verbose request uri https://registry.npmjs.org/t
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 6:50:15 PM
+28 verbose request id a9d6c133a7eb8c25
+29 http request GET https://registry.npmjs.org/t
+30 http 200 https://registry.npmjs.org/t
+31 verbose headers { server: 'nginx/1.10.1',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'last-modified': 'Thu, 21 Sep 2017 23:59:01 GMT',
+31 verbose headers   etag: 'W/"59c45245-3610"',
+31 verbose headers   'content-encoding': 'gzip',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '3884',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Wed, 04 Oct 2017 01:50:16 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-sjc3633-SJC',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1507081816.932933,VS0,VE74',
+31 verbose headers   vary: 'Accept-Encoding, Accept' }
+32 silly get cb [ 200,
+32 silly get   { server: 'nginx/1.10.1',
+32 silly get     'content-type': 'application/json',
+32 silly get     'last-modified': 'Thu, 21 Sep 2017 23:59:01 GMT',
+32 silly get     etag: 'W/"59c45245-3610"',
+32 silly get     'content-encoding': 'gzip',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '3884',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Wed, 04 Oct 2017 01:50:16 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '0',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-sjc3633-SJC',
+32 silly get     'x-cache': 'MISS',
+32 silly get     'x-cache-hits': '0',
+32 silly get     'x-timer': 'S1507081816.932933,VS0,VE74',
+32 silly get     vary: 'Accept-Encoding, Accept' } ]
+33 verbose get saving t to C:\Users\PercyZachson\AppData\Roaming\npm-cache\registry.npmjs.org\t\.cache.json
+34 verbose correctMkdir C:\Users\PercyZachson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 error git clone --template=C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb: Cloning into bare repository 'C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb'...
+35 error git clone --template=C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb: fatal: unable to access 'https://github.com/CityOfZion/neon-js.gi%24.git/': The requested URL returned error: 400
+36 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb
+36 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb'...
+36 silly fetchPackageMetaData fatal: unable to access 'https://github.com/CityOfZion/neon-js.gi%24.git/': The requested URL returned error: 400
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+36 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+36 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+36 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+36 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+36 silly fetchPackageMetaData  error for git+https://github.com/CityOfZion/neon-js.gi$ { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb
+36 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb'...
+36 silly fetchPackageMetaData fatal: unable to access 'https://github.com/CityOfZion/neon-js.gi%24.git/': The requested URL returned error: 400
+36 silly fetchPackageMetaData
+36 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+36 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+36 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+36 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+36 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+36 silly fetchPackageMetaData   killed: false,
+36 silly fetchPackageMetaData   code: 128,
+36 silly fetchPackageMetaData   signal: null,
+36 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\PercyZachson\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\\Users\\PercyZachson\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb' }
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb
+41 verbose stack Cloning into bare repository 'C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb'...
+41 verbose stack fatal: unable to access 'https://github.com/CityOfZion/neon-js.gi%24.git/': The requested URL returned error: 400
+41 verbose stack
+41 verbose stack     at ChildProcess.exithandler (child_process.js:198:12)
+41 verbose stack     at emitTwo (events.js:106:13)
+41 verbose stack     at ChildProcess.emit (events.js:191:7)
+41 verbose stack     at maybeClose (internal/child_process.js:920:16)
+41 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+42 verbose cwd C:\Users\PercyZachson\electron-quick-start
+43 error Windows_NT 10.0.15063
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "git+https://github.com/CityOfZion/neon-js.gi$" "t"
+45 error node v6.11.4
+46 error npm  v3.10.10
+47 error code 128
+48 error Command failed: git -c core.longpaths=true clone --template=C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/CityOfZion/neon-js.gi%24.git C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb
+48 error Cloning into bare repository 'C:\Users\PercyZachson\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-CityOfZion-neon-js-gi-24-git-358984bb'...
+48 error fatal: unable to access 'https://github.com/CityOfZion/neon-js.gi%24.git/': The requested URL returned error: 400
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
