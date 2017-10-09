@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/concillio/leonidas-desktop-waller",
   "keywords": [
     "Leonidas",
     "NEO",
@@ -15,7 +15,7 @@
     "Leon"
   ],
   "author": "Created by Sam Safahi and Concillio",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "devDependencies": {
     "electron": "~1.7.8"
   },
