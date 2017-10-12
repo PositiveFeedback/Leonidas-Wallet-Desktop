@@ -58,7 +58,7 @@ align-items: center;
   transition: box-shadow 0.2s, border 0.2s, color 0.2s, background 0.2s;
   width: 250px;
    background: linear-gradient(
-     white, white 50%, #ffdab9 50%, #ffdab9
+     white, white 50%, 	#DEB887 50%, 	#DEB887
 
   );
   display: table;
