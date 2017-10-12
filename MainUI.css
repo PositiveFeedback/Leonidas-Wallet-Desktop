@@ -20,6 +20,10 @@ color: white;
 
 }
 
+p.FooterText{
+  color: black;
+}
+
 .footer {
   position: absolute;
   right: 0;
